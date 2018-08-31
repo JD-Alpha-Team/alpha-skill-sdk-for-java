@@ -1,3 +1,3 @@
-# alpha-skills-sdk-for-java
+# alpha-skill-sdk-for-java
 
 Alpha Skills SDK（Java版本）
