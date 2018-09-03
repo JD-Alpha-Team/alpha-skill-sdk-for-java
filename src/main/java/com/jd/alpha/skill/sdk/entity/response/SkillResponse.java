@@ -33,12 +33,8 @@ public class SkillResponse {
     @Builder.Default
     private String version = "1.0";
 
-    private String skill;
-
-    private String intent;
-
     @Builder.Default
-    private boolean shouldEndSession = false;
+    private boolean shouldEndSession = true;
 
     private Map<String, Object> contexts;
 

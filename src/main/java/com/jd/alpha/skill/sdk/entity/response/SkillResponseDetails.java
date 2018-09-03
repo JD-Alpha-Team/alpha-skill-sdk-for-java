@@ -28,6 +28,6 @@ public class SkillResponseDetails {
 
     private SkillResponseOutput output;
 
-    private SkillResponseCard card;
+    private SkillResponseOutput reprompt;
 
 }

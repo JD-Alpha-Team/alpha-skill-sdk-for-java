@@ -30,9 +30,5 @@ public class SkillSessionDeviceInfo {
      * 设备Id
      */
     private String deviceId;
-    /**
-     * 设备支持媒体；VideoPlayer和ScreenDisplay 必须为有屏设备
-     */
-    private String[] supportedMedias;
 
 }
