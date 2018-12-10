@@ -1,15 +1,15 @@
-# alpha-skill-sdk-for-java
+# whale-custom-skill-sdk-for-java
 
-Alpha Skills SDK（Java版本）
+Whale Custom Skills SDK（Java版本）
 
 Maven地址：
 
 ```xml
-<!-- Alpha Skill SDK -->
+<!-- Whale Custom Skill SDK -->
 <dependency>
-    <groupId>com.jd.alpha</groupId>
-    <artifactId>alpha-skill-sdk</artifactId>
-    <version>0.1</version>
+    <groupId>com.jd.custom</groupId>
+    <artifactId>custom-skill-sdk</artifactId>
+    <version>1.0</version>
 </dependency>
 ```
 
@@ -55,7 +55,7 @@ public class SampleHandler extends RequestHandler {
     }
 
     /**
-     * 自定义意图时的响应（用户在Alpha平台自行定义的意图）
+     * 自定义意图时的响应（用户在Skill开放平台自行定义的意图）
      *
      * @param skillData Skill请求数据
      * @return SkillResponse
@@ -170,7 +170,7 @@ public class SampleController {
 }
 ```
 
-以上就是 SDK 的简单使用流程，在开发完成之后，将该 URL 放在 Alpha 开发者中心新建应用中的服务端点中，即可进行相关测试。
+以上就是 SDK 的简单使用流程，在开发完成之后，将该 URL 放在 Skill 开放平台新建应用中的服务端点中，即可进行相关测试。
 
 > 备注：SDK中每个实体类都提供了 Builder 模式，且提供了常量类，可结合 Builder 以及常量类减小开发负担。
 

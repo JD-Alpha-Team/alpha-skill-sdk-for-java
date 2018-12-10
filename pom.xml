@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.jd.alpha</groupId>
-    <artifactId>alpha-skill-sdk</artifactId>
-    <version>0.1</version>
+    <groupId>com.jd.custom</groupId>
+    <artifactId>custom-skill-sdk</artifactId>
+    <version>1.0</version>
     <name>JD Skill SDK for Java</name>
     <description>JD Skill SDK for Java</description>
-    <url>https://alphadev.jd.com/</url>
+    <url>https://jdwhale.jd.com/</url>
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
@@ -19,15 +19,15 @@
     </licenses>
     <scm>
         <tag>master</tag>
-        <url>git@github.com:JD-IOT/skill-sdk-for-java.git</url>
-        <connection>scm:git:git@github.com:JD-IOT/skill-sdk-for-java.git</connection>
-        <developerConnection>scm:git:git@github.com:JD-IOT/skill-sdk-for-java.git</developerConnection>
+        <url>git@github.com:JD-Whale/skill-sdk-for-java.git</url>
+        <connection>scm:git:git@github.com:JD-Whale/skill-sdk-for-java.git</connection>
+        <developerConnection>scm:git:git@github.com:JD-Whale/skill-sdk-for-java.git</developerConnection>
     </scm>
     <developers>
         <developer>
             <name>alphadev</name>
             <email>alphadev@jd.com</email>
-            <organization>JD-IOT</organization>
+            <organization>JD Whale Platform</organization>
         </developer>
     </developers>
 
